@@ -1,0 +1,132 @@
+/*variáveis*/
+:root {
+  --escuro: #262626;
+  --principal: #ff8d00; /* essa ou a quarta vai ser a principal?*/
+  --secundaria: #ffa800;
+  --terceira: #ffc000;
+  --quarta: #ffdd00; /*ver se troca com a principal e apagar comentários*/
+  --clara: #f2f2f2;
+  --fonteTitulos: "Secular One", sans-serif; /*REVER*/
+  --fonteTextos: "Kanit", sans-serif; /*REVER*/
+  --fonteMarca: ; /*DEFINIR*/
+}
+
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap");
+
+/*reset*/
+html,
+body {
+  /* 
+  width: 100vw;
+  height: 100vh; */
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/*estilos básicos*/
+* {
+  font-family: var(--fonteTextos);
+  color: var(--clara);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--fonteTitulos);
+  color: var(--secundaria);
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--escuro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto,
+.formulario {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto {
+  flex-direction: column;
+}
+
+.box {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background-color: var(--quarta);
+  border-radius: 25px;
+  box-shadow: 0 10px 20px var(--quarta);
+}
+
+.box > h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.bloco > input,
+.botaoLogin {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: var(--clara);
+  color: var(--escuro);
+  font-size: 12pt;
+  box-sizing: border-box;
+}
+
+.botaoLogin {
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: var(--secundaria);
+}
+
+.botaoLogin:hover {
+  box-shadow: 0px 10px 40px -12px var(--escuro);
+  cursor: pointer;
+}
+
+.bloco > label {
+  color: var(--escuro); /* 
+  margin: 15px 0 5px; */
+}
+
+#salvarSenha {
+  font-size: 0.79rem;
+}
+
+#iconeLogin {
+  width: 20vw;
+}
+
+/*mobile*/
+* {
+  font-size: 20pt;
+}
+
+/*outros tamanhos*/
+@media screen {
+}
