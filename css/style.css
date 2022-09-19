@@ -23,6 +23,7 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  background-color: var(--escuro);
 }
 
 /*estilos básicos*/
@@ -40,27 +41,39 @@ h5 {
   color: var(--secundaria);
 }
 
+/*mobile*/
+* {
+  font-size: 20pt;
+}
+
 .login {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: var(--escuro);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .texto,
 .formulario {
-  width: 50vw;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .texto {
   flex-direction: column;
+  margin: 25px;
 }
 
+.texto > h1 {
+  font-size: 25pt;
+  text-align: center;
+}
+
+/*outros tamanhos*/
 .box {
   width: 60%;
   justify-content: center;
@@ -73,7 +86,7 @@ h5 {
 }
 
 .box > h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 800;
   text-align: center;
 }
@@ -110,8 +123,7 @@ h5 {
 }
 
 .bloco > label {
-  color: var(--escuro); /* 
-  margin: 15px 0 5px; */
+  color: var(--escuro);
 }
 
 #salvarSenha {
@@ -121,12 +133,27 @@ h5 {
 #iconeLogin {
   width: 20vw;
 }
+@media screen and (min-width: 920px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+  }
 
-/*mobile*/
-* {
-  font-size: 20pt;
-}
+  .texto > h1 {
+    font-size: 2.5vw;
+  }
 
-/*outros tamanhos*/
-@media screen {
+  .bloco {
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .bloco > label {
+    padding: 10px 20px;
+  }
+  .botaoLogin {
+    width: 40%;
+  }
 }
