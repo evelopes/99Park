@@ -30,7 +30,7 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 - **Elias Junior** - A preencher
 - **Evelin Lope** - [evelopes](https://github.com/evelopes)
-- **Laryssa Fernandes** - [Laryfernades](https://github.com/Laryfernandes)
+- **Laryssa Fernandes** - [Laryfernandes](https://github.com/Laryfernandes)
 - **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following) 
 - **Pedro** - A preencher
 
