@@ -28,7 +28,7 @@ As ferramentas que usamos para criar seu projeto foram:
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-- **Elias Junior** - A preencher
+- **Elias Junior** - [ColossusMk](https://github.com/ColossusMk)
 - **Evelin Lope** - [evelopes](https://github.com/evelopes)
 - **Laryssa Fernandes** - [Laryfernandes](https://github.com/Laryfernandes)
 - **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following) 
