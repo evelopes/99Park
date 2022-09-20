@@ -82,7 +82,6 @@ h5 {
   padding: 30px 35px;
   background-color: var(--quarta);
   border-radius: 25px;
-  box-shadow: 0 10px 20px var(--quarta);
 }
 
 .box > h1 {
@@ -155,5 +154,9 @@ h5 {
   }
   .botaoLogin {
     width: 40%;
+  }
+
+  .box {
+    box-shadow: 0 10px 20px var(--quarta);
   }
 }
