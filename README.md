@@ -1,5 +1,47 @@
-# Atividade
+# 99 Park
 
-Nesta atividade, aplicaremos os conhecimentos adquiridos sobre CSS Mobile First. Você deve gerar uma página html e seu arquivo externo de CSS. Nessa página, crie um formulário de login, que deve ter um campo para o nome de usuário, um para senha, um checkbox para salvar a senha e um botão de submissão.
+O 99 Park é um projeto onde aplicaremos os conhecimentos adquiridos sobre CSS Mobile First, criando uma página Web usando HTML e CSS. 
 
-Utilize o framework Flexbox e a organização de código trabalhada no conteúdo desta aula. Seu formulário deve ter aparência levemente diferente para a versão web e para a versão mobile. Pense na disposição dos elementos como alteração para as versões. Você pode usar o estilo que achar mais interessante.
+## 🛠️ Construído com
+
+As ferramentas que usamos para criar seu projeto foram:
+
+- [HTML5](https://www.w3schools.com/html/) - Linguagem de Marcação de Hipertexto para estruturação
+- [CSS3](https://www.w3schools.com/css/) - Cascading Style Sheets para layout
+
+## 🏓 Etapas
+
+- Brainstorm e Brainwriting em Equipe;
+- Protótipos para a tela principal do aplicativo, sendo um wireframe, um protótipo de média fidelidade e um de alta;
+- Crianção da Identidade Visual (Manual de Identidade), contendo as regras de uso da sua marca e de como o aplicativo deve ser criado;
+- Página de Login, um formulário de login, que deve ter um campo para o nome de usuário, um para senha.
+
+## :paintbrush: Preview
+
+[Under development]
+
+### Dark Mode
+
+[Under development]
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+- **Elias Junior** - A preencher
+- **Evelin Lope** - [evelopes](https://github.com/evelopes)
+- **Laryssa Fernandes** - [Laryfernades](https://github.com/Laryfernandes)
+- **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following) 
+- **Pedro** - A preencher
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+
+## 📄 Licença
+
+Este projeto está sob a licença GNU v3.0 - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+## 🎁 Expressões de gratidão
+
+- Bora tomar uma quando terminamos isso 🍺;
+
+⌨️ com ❤️ por [Nicolas Soares](https://github.com/NicolasSSantos) 😊
