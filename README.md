@@ -1,6 +1,6 @@
 # 99 Park
 
-O 99 Park é um projeto onde aplicaremos os conhecimentos adquiridos sobre CSS Mobile First, criando uma página Web usando HTML e CSS. 
+O 99 Park é um projeto onde aplicaremos os conhecimentos adquiridos sobre CSS Mobile First, criando uma página Web usando HTML e CSS.
 
 ## 🛠️ Construído com
 
@@ -29,12 +29,12 @@ As ferramentas que usamos para criar seu projeto foram:
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 - **Elias Junior** - [ColossusMk](https://github.com/ColossusMk)
-- **Evelin Lope** - [evelopes](https://github.com/evelopes)
+- **Evelin Lopes** - [Evelopes](https://github.com/evelopes)
 - **Laryssa Fernandes** - [Laryfernandes](https://github.com/Laryfernandes)
-- **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following) 
+- **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following)
 - **Pedro** - A preencher
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+Você também pode ver a lista de todos os [colaboradores](https://github.com/evelopes/99Park/graphs/contributors) que participaram deste projeto.
 
 ## 📄 Licença
 
