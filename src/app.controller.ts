@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get(':peso' + '/' + ':altura')
-  getHello(@Param('peso') peso, @Param('altura') altura): number {
-    return this.appService.getHello(peso, altura);
+  calculaIMC(@Param('peso') peso, @Param('altura') altura): number {
+    return this.appService.calculaIMC(peso, altura);
   }
 }
