@@ -1,32 +1,43 @@
 /*variáveis*/
 :root {
-  --escuro: #262626;
-  --principal: #ff8d00; /* essa ou a quarta vai ser a principal?*/
-  --secundaria: #ffa800;
-  --terceira: #ffc000;
-  --quarta: #ffdd00; /*ver se troca com a principal e apagar comentários*/
-  --clara: #f2f2f2;
-  --fonteTitulos: "Secular One", sans-serif; /*REVER*/
-  --fonteTextos: "Kanit", sans-serif; /*REVER*/
-  --fonteMarca: ; /*DEFINIR*/
-}
-
-/*fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap");
-
-/*reset*/
+    --escuro: #262626;
+    --principal: #ff8d00; /* essa ou a quarta vai ser a principal?*/
+    --secundaria: #ffa800;
+    --terceira: #ffc000;
+    --quarta: #ffdd00; /*ver se troca com a principal e apagar comentários*/
+    --clara: #f2f2f2;
+    --fonteTitulos: "Secular One", sans-serif; /*REVER*/
+    --fonteTextos: "Kanit", sans-serif; /*REVER*/
+    --fonteMarca: ; /*DEFINIR*/
+  }
+  
+  /*fonts*/
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap");
+  
+  /*reset*/
 html,
 body {
-  /* 
-  width: 100vw;
-  height: 100vh; */
+    width: 100%;
   padding: 0;
   margin: 0;
   border: 0;
   background-color: var(--escuro);
+  display: flex;
+  align-items: baseline;
 }
 
 /*estilos básicos*/
+article{
+  background-color: var(--clara);
+  border-radius: 10px;
+  padding: 20px 80px;
+  margin: 20px;
+  max-width: 20%;
+  box-shadow: 0 0 10px var(--escuro);
+  max-width: 100%;
+}
+
+
 * {
   font-family: var(--fonteTextos);
   color: var(--clara);
@@ -56,12 +67,13 @@ h5 {
   align-items: center;
 }
 .texto,
-.formulario {
-  width: 100%;
-  height: 100%;
+form, section {
+  width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 2em;
 }
 .texto {
   flex-direction: column;
@@ -71,6 +83,10 @@ h5 {
 .texto > h1 {
   font-size: 25pt;
   text-align: center;
+}
+
+input[type="text"], button, p{
+  color: var(--escuro);
 }
 
 /*outros tamanhos*/
@@ -109,6 +125,7 @@ h5 {
   font-size: 12pt;
   box-sizing: border-box;
 }
+
 
 .botaoLogin {
   text-transform: uppercase;
