@@ -1,191 +1,106 @@
 /*variáveis*/
 :root {
-  --escuro: #262626;
-  --principal: #ff8d00;
-  --secundaria: #ffa800;
-  --terceira: #ffc000;
-  --quarta: #ffdd00;
-  --clara: #f2f2f2;
-  --fonteTitulos: "Secular One", sans-serif;
-  --fonteTextos: "Kanit", sans-serif;
-  --fonteMarca: ;
+    --escuro: #262626;
+    --principal: #ff8d00;
+    --secundaria: #ffa800;
+    --terceira: #ffc000;
+    --quarta: #ffdd00;
+    --clara: #f2f2f2;
+    --fonteTitulos: "Secular One", sans-serif;
+    --fonteTextos: "Kanit", sans-serif;
+    --fonteMarca: ;
 }
 
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap");
 
 /*reset*/
-html,
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background-color: var(--escuro);
-  align-items: baseline;
-  display: flex;
-  flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonteTextos);
+    color: var(--clara);
 }
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+form,
+section {
+    background-color: var(--escuro);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: var(--principal);
+}
+
 
 /*estilos básicos*/
-article {
-  background-color: var(--clara);
-  border-radius: 10px;
-  padding: 20px 80px;
-  margin: 20px;
-  max-width: 25%;
-  box-shadow: 0 0 10px var(--escuro);
-}
-
-
-* {
-  font-family: var(--fonteTextos);
-  color: var(--clara);
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: var(--fonteTitulos);
-  color: var(--secundaria);
+    font-family: var(--fonteTitulos);
+    color: var(--secundaria);
 }
 
-/*mobile*/
-* {
-  font-size: 20pt;
-}
+h1 {
+    color: var(--escuro);
 
-.texto,
-form,
-section {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2em 2em;
 }
 
 .perfil {
-  width: 5em;
+    width: 5em;
+    border-radius: 50%;
 }
 
-.texto {
-  margin: 25px;
-}
-
-.texto>h1 {
-  font-size: 25pt;
-  text-align: center;
-}
 
 input[type="text"],
 button,
 p {
-  color: var(--escuro);
+    color: var(--escuro);
 }
+
+
+article {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    width: 261px;
+    height: 217px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+
+.botoes {
+    display: flex;
+}
+
+button:first {
+    background-color: #ff8d00;
+}
+
+button {
+    background-color: #050302;
+}
+
+
+/*mobile*/
+* {
+    font-size: 20pt;
+}
+
 
 /*outros tamanhos*/
-.box {
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 30px 35px;
-  background-color: var(--quarta);
-  border-radius: 25px;
-}
-
-.box>h1 {
-  font-size: 1.5em;
-  font-weight: 800;
-  text-align: center;
-}
-
-.bloco {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 10px 10px;
-}
-
-.bloco>input,
-.botaoLogin {
-  width: 100%;
-  border: none;
-  border-radius: 10px;
-  padding: 15px;
-  background-color: var(--clara);
-  color: var(--escuro);
-  font-size: 12pt;
-  box-sizing: border-box;
-}
-
-
-.botaoLogin {
-  text-transform: uppercase;
-  font-weight: 800;
-  background-color: var(--secundaria);
-}
-
-.botaoLogin:hover {
-  box-shadow: 0px 10px 40px -12px var(--escuro);
-  cursor: pointer;
-}
-
-.bloco>label {
-  color: var(--escuro);
-}
-
-#salvarSenha {
-  font-size: 0.79rem;
-}
-
-#iconeLogin {
-  width: 20vw;
-}
-
-@media screen and (min-width: 920px) {
-
-  body {
-    flex-direction: row;
-  }
-
-
-  .texto,
-  form,
-  section {
-    width: 50%;
-  }
-
-
-  .login {
-    width: 100vw;
-    height: 100vh;
-    flex-direction: row;
-  }
-
-  .texto>h1 {
-    font-size: 2.5vw;
-  }
-
-  .bloco {
-    flex-direction: row;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-
-  .bloco>label {
-    padding: 10px 20px;
-  }
-
-  .botaoLogin {
-    width: 40%;
-  }
-
-  .box {
-    box-shadow: 0 10px 20px var(--quarta);
-  }
-}

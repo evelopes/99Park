@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset='utf-8' />
-    <title>Formulário Professores 99Park</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Aplicando Aula 8</title>
+
     <script src="/assets/js/main.js"></script>
     <link rel="shortcut icon" href="/assets/img/icon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <form>
+    <form action="">
+
         <img src="/assets/img/logos/04_logomarca_horizontal_dark_car.svg" alt="" srcset="">
         <p>
             <label for="name">Name:</label><br>
-            <input type="text" id="name" />
+            <input type="text" id="name" placeholder="nome" />
         </p>
         <p>
             <label for="tia">TIA:</label><br>
-            <input type="text" id="tia" />
+            <input type="text" id="tia" placeholder="tia" />
         </p>
         <p>
             <label for="course">Course:</label><br>
-            <input type="text" id="course" />
+            <input type="text" id="course" placeholder="curso" />
         </p>
-            <p><label for="img">Foto:</label><br>
+        <p><label for="img">Photo:</label><br>
             <input type="text" id="img" placeholder="url da foto" />
         </p>
         <button id='button' onclick='insertTeacher()'>Inserir</button>
     </form>
-    <section id='content'></section>
+    </form>
+    <section>
+        <h1>Lista de Professores</h1>
+        <div id='content'>
+        </div>
+    </section>
 </body>
 
 </html>
