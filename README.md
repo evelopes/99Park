@@ -6,15 +6,26 @@ O 99 Park é um projeto onde aplicaremos os conhecimentos adquiridos sobre CSS M
 
 As ferramentas que usamos para criar seu projeto foram:
 
-- [HTML5](https://www.w3schools.com/html/) - Linguagem de Marcação de Hipertexto para estruturação
-- [CSS3](https://www.w3schools.com/css/) - Cascading Style Sheets para layout
+- [HTML5](https://www.w3schools.com/html/) - Linguagem de Marcação de Hipertexto para estruturação;
+- [CSS3](https://www.w3schools.com/css/) - Cascading Style Sheets para layout;
+- [JavaScript](https://www.javascript.com/) - Linguagem de programação de alto nível;
+- [TypeScript](https://www.typescriptlang.org/) - Linguagem de programação fortemente tipada que se baseia em JavaScript.
 
 ## 🏓 Etapas
 
 - Brainstorm e Brainwriting em Equipe;
+
 - Protótipos para a tela principal do aplicativo, sendo um wireframe, um protótipo de média fidelidade e um de alta;
+
 - Crianção da Identidade Visual (Manual de Identidade), contendo as regras de uso da sua marca e de como o aplicativo deve ser criado;
+
 - Página de Login, um formulário de login, que deve ter um campo para o nome de usuário, um para senha.
+
+  
+
+  [LOADING....]
+
+  
 
 ## :paintbrush: Preview
 
@@ -31,7 +42,7 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 - **Elias Junior** - [ColossusMk](https://github.com/ColossusMk)
 - **Evelin Lopes** - [Evelopes](https://github.com/evelopes)
 - **Laryssa Fernandes** - [Laryfernandes](https://github.com/Laryfernandes)
-- **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following)
+- **Nicolas Soares** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/evelopes/99Park/graphs/contributors) que participaram deste projeto.
 
