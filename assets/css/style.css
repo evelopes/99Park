@@ -49,7 +49,7 @@ h3,
 h4,
 h5 {
   font-family: var(--fonteTitulos);
-  color: var(--secundaria);
+  color: var(--secundaria);  
 }
 
 /*mobile*/
@@ -73,7 +73,7 @@ form, section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 2em;
+  margin: 2em 2em;
 }
 .texto {
   flex-direction: column;
