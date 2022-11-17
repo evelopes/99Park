@@ -32,7 +32,6 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 - **Evelin Lopes** - [Evelopes](https://github.com/evelopes)
 - **Laryssa Fernandes** - [Laryfernandes](https://github.com/Laryfernandes)
 - **Nicolas Soares:)** - [NicolasSSantos](https://github.com/NicolasSSantos?tab=following)
-- **Pedro** - A preencher
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/evelopes/99Park/graphs/contributors) que participaram deste projeto.
 

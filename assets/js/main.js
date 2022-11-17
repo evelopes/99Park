@@ -43,7 +43,8 @@ function insertTeacher() {
     var teacher = {
         name: document.getElementById('name').value,
         tia: document.getElementById('tia').value,
-        course: document.getElementById('course').value
+        course: document.getElementById('course').value,
+        img: document.getElementById('img').value
     }
 
     const url = URL_BASE + "/teacher";
@@ -75,6 +76,7 @@ function findTeacher(tia) {
             document.getElementById('name').value = response.name;
             document.getElementById('tia').value = response.tia;
             document.getElementById('course').value = response.course;
+            document.getElementById('img').value = response.img;
             document.getElementById('button').innerHTML = "Atualizar";
             document.getElementById('button').onclick = updateTeacher;
         } else {
@@ -88,7 +90,8 @@ function updateTeacher() {
     var teacher = {
         name: document.getElementById('name').value,
         tia: document.getElementById('tia').value,
-        course: document.getElementById('course').value
+        course: document.getElementById('course').value,
+        img: document.getElementById('img').value
     }
 
     const url = URL_BASE + "/teacher";
@@ -112,6 +115,7 @@ function clear() {
     document.getElementById('name').value = "";
     document.getElementById('tia').value = "";
     document.getElementById('course').value = "";
+    document.getElementById('img').value = "";
 }
 
 function createCard(teacher) {
@@ -119,6 +123,7 @@ function createCard(teacher) {
     str += "<h1>" + teacher.name + "</h1>";
     str += "<p>" + teacher.tia + "</p>";
     str += "<p>" + teacher.course + "</p>";
+    str += "<p><img src='" + teacher.img + "' class='perfil'></p>";
     str += "<button onclick='deleteTeacher(" + teacher.tia + ")'>X</button>";
     str += "<button onclick='findTeacher(" + teacher.tia + ")'>Editar</button>";
     str += "</article>";

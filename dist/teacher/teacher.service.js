@@ -24,7 +24,8 @@ let TeacherService = class TeacherService {
         const teacherModel = new this.teacherModel({
             name: teacher.name,
             tia: teacher.tia,
-            course: teacher.course
+            course: teacher.course,
+            img: teacher.img
         });
         const result = await teacherModel.save();
         return result.id;
@@ -47,6 +48,9 @@ let TeacherService = class TeacherService {
         }
         if (teacher.course) {
             updateTeacher.course = teacher.course;
+        }
+        if (teacher.img) {
+            updateTeacher.img = teacher.img;
         }
         updateTeacher.save();
     }
