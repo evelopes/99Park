@@ -6,13 +6,13 @@
     --terceira: #ffc000;
     --quarta: #ffdd00;
     --clara: #f2f2f2;
-    --fonteTitulos: "Secular One", sans-serif;
+    --fonteTitulos: 'Roboto', sans-serif;
     --fonteTextos: "Kanit", sans-serif;
-    --fonteMarca: ;
 }
 
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 /*reset*/
 * {
@@ -25,22 +25,25 @@
 body {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 form,
 section {
+    padding: 50px 0;
     background-color: var(--escuro);
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 section {
+    overflow-y: scroll;
     background-color: var(--principal);
+
 }
 
 
@@ -71,31 +74,64 @@ p {
     color: var(--escuro);
 }
 
+.botoes>button {
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.3em;
+}
+
+.del {
+    background: red;
+}
+
+.edit {
+    background: green;
+
+}
+
 
 article {
     display: flex;
     flex-direction: column;
-
-    padding: 20px;
-    width: 261px;
-    height: 217px;
+    align-items: center;
+    padding: 20px 20px 0;
+    margin: 50px 50px 0;
+    min-width: 261px;
+    min-height: 217px;
     background: #FFFEFE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
 }
 
+article>h1,
+article>p {
+    margin: 5px;
+}
+
+.course {
+    color: red;
+    font-family: var(--fonteTitulos);
+}
+
+
 .botoes {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 50px;
+    border-radius: 50%;
 }
 
-button:first {
-    background-color: #ff8d00;
+.photo {
+    width: 5em;
+    border-radius: 50%;
 }
-
-button {
-    background-color: #050302;
-}
-
 
 /*mobile*/
 * {

@@ -120,12 +120,12 @@ function clear() {
 
 function createCard(teacher) {
     var str = "<article>";
-    str += "<p><img src='" + teacher.img + "' class='perfil'></p>";
+    str += "<p><img src='" + teacher.img + "' class='photo'></p>";
     str += "<h1>" + teacher.name + "</h1>";
+    str += "<p class='course'>" + teacher.course + "</p>";
     str += "<p>" + teacher.tia + "</p>";
-    str += "<p>" + teacher.course + "</p>";
-    str += "<div class='botoes'><button onclick='findTeacher(" + teacher.tia + ")'>Editar</button>";
-    str += "<button onclick='deleteTeacher(" + teacher.tia + ")'>X</button></div>";
     str += "</article>";
+    str += "<div class='botoes'><button onclick='findTeacher(" + teacher.tia + ")' class='edit'>Editar</button>";
+    str += "<button onclick='deleteTeacher(" + teacher.tia + ")' class='del'>X</button></div>";
     return str;
 }
