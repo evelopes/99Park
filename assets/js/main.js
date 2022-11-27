@@ -123,7 +123,7 @@ function createCard(teacher) {
     str += "<p><img src='" + teacher.img + "' class='photo'></p>";
     str += "<h1>" + teacher.name + "</h1>";
     str += "<p class='course'>" + teacher.course + "</p>";
-    str += "<p>" + teacher.tia + "</p>";
+    str += "<p class='tia'>" + teacher.tia + "</p>";
     str += "</article>";
     str += "<div class='botoes'><button onclick='findTeacher(" + teacher.tia + ")' class='edit'>Editar</button>";
     str += "<button onclick='deleteTeacher(" + teacher.tia + ")' class='del'>X</button></div>";

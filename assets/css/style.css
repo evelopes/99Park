@@ -62,16 +62,12 @@ h1 {
 
 }
 
-.perfil {
-    width: 5em;
-    border-radius: 50%;
-}
-
 
 input[type="text"],
 button,
 p {
     color: var(--escuro);
+    padding: 0.2em;
 }
 
 .botoes>button {
@@ -117,6 +113,10 @@ article>p {
     font-family: var(--fonteTitulos);
 }
 
+.tia {
+    font-size: 0.5em;
+    font-weight: 600;
+}
 
 .botoes {
     display: flex;
@@ -139,4 +139,8 @@ article>p {
 }
 
 
-/*outros tamanhos*/
+@media only screen and (max-width: 720px) {
+    body {
+        flex-direction: column;
+    }
+}
